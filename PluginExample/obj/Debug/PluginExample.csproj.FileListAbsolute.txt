@@ -1,0 +1,10 @@
+C:\Users\User\Documents\GitHub\hdt-plugin-example\PluginExample\obj\Debug\PluginExample.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\GitHub\hdt-plugin-example\PluginExample\obj\Debug\CurvyList.g.cs
+C:\Users\User\Documents\GitHub\hdt-plugin-example\PluginExample\obj\Debug\PluginExample_MarkupCompile.cache
+C:\Users\User\Documents\GitHub\hdt-plugin-example\PluginExample\obj\Debug\PluginExample_MarkupCompile.lref
+C:\Users\User\Documents\GitHub\hdt-plugin-example\PluginExample\bin\Debug\PluginExample.dll
+C:\Users\User\Documents\GitHub\hdt-plugin-example\PluginExample\bin\Debug\PluginExample.pdb
+C:\Users\User\Documents\GitHub\hdt-plugin-example\PluginExample\obj\Debug\CurvyList.baml
+C:\Users\User\Documents\GitHub\hdt-plugin-example\PluginExample\obj\Debug\PluginExample.g.resources
+C:\Users\User\Documents\GitHub\hdt-plugin-example\PluginExample\obj\Debug\PluginExample.dll
+C:\Users\User\Documents\GitHub\hdt-plugin-example\PluginExample\obj\Debug\PluginExample.pdb
