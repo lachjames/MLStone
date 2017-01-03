@@ -1,24 +1,17 @@
-# HDT Plugin Example 
+#HDT MLStone
 
- [![GitHub release](https://img.shields.io/github/release/andburn/hdt-plugin-example.svg?maxAge=604800)](https://github.com/andburn/hdt-plugin-example/releases/latest)
+A plugin for Hearthstone Deck Tracker which automatically detects the deck closest matching to your opponent's on HearthPwn (based on what cards they've played) so that you can see what they might play next.
 
-A simple plugin for [Hearthstone Deck Tracker](https://github.com/Epix37/Hearthstone-Deck-Tracker) to illustrate some basic functionality and how to get started.
-It displays your opponent's on curve class cards for his next turn.
+##What it can do right now
 
-![screenshot](http://i.imgur.com/dBBnawz.png)
+At this time, it only downloads the latest decks from HearthPwn and detects the closest match (scanning the first six pages of "top decks").
 
-## Building the Plugin
+##What it will do soon
 
-- To build the plugin you first need to build a development version of [Hearthstone Deck Tracker](https://github.com/Epix37/Hearthstone-Deck-Tracker), this should be as simple as getting the source from github and opening and building the project in Visual Studio.
-- The next step is to build the plugin, double clicking `PluginExample.sln` will open the project in Visual Studio.
-- First thing to do is add a reference to the location of your Hearthstone Deck Tracker executable (compiled in the first step).
+In the future, the plan is to implement association mining on the decks, so instead of displaying the closest matching deck from HearthPwn it trains itself on HearthPwn's decks and, based on what your opponent has played so far, displays the top n cards they are likely to play in the future.
 
-![Add Reference](http://i.imgur.com/LLpgkOH.png)
+##Installing the plugin
 
-and then set that references *Copy Local* property to false.
+Installation is really easy - just download Hearthstone Deck Tracker from their website HDT, and go to your %appdata% folder. Then place the .dll file located in the "debug" folder in the folder %appdata%/Roaming/HearthstoneDeckTracker/Plugins/ (the folder should contain folders named Backups, Logs, Plugins and Replays - put it in the plugins folder).
 
-![Copy Local](http://i.imgur.com/kbiMhko.png)
-
-- Add another reference for the `HearthDB.dll` found in the same directory as the Hearthstone Deck Tracker executable.
-- You should then be able to build the plugin successfully.
-- Go to your `PluginExample\bin\Release` folder and copy `PluginExample.dll` to the Hearthstone Deck Tracker Plugins folder.
+Enjoy the plugin, and let me know if there's any issues with it!
